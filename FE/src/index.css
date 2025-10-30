@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wdth,wght@75,100..900&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Roboto", ui-sans-serif, system-ui, sans-serif;
+}
+
+.no-scrollbar {
+  /* Cho Firefox */
+  scrollbar-width: none;
+  
+  /* Cho Internet Explorer và Edge cũ */
+  -ms-overflow-style: none;
+}
+
+/* Cho các trình duyệt dựa trên Webkit (Chrome, Safari, Edge mới, Opera) */
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+
+.no-scrollbar .ant-table-body::-webkit-scrollbar {
+  display: none;
+}
+
+.no-scrollbar .ant-table-body {
+  scrollbar-width: none; /* Firefox */
+ -ms-overflow-style: none;  /* IE and Edge */
+}
+
+.bg-pattern-1 {
+  background-color: #f9fafb;
+  background-size: 30px 30px;
+  background-image:
+      linear-gradient(to right, #c7d2fe 1px, transparent 1px),
+      linear-gradient(to bottom, #c7d2fe 1px, transparent 1px);
+}
+
+.bg-pattern-2{
+    background-color: #fefce8;
+    background-image:
+        linear-gradient(135deg, #fecaca 25%, transparent 25%),
+        linear-gradient(225deg, #fecaca 25%, transparent 25%),
+        linear-gradient(45deg, #fecaca 25%, transparent 25%),
+        linear-gradient(315deg, #fecaca 25%, #fefce8 25%);
+    background-position: 10px 0, 10px 0, 0 0, 0 0;
+    background-size: 20px 20px;
+    background-repeat: repeat;
+}
