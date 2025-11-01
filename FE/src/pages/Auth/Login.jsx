@@ -54,8 +54,8 @@ const Login = () => {
                 
                 <div className="absolute top-4 right-4 bg-blue-50 p-3 rounded-lg shadow text-xs text-gray-800">
                     <p className="font-semibold">For Fast Access:</p>
-                    <p>Email: <strong className="text-black">demo@example.com</strong></p>
-                    <p>Pass: <strong className="text-black">password123</strong></p>
+                    <p>Email: <strong className="text-black">lda@mail.com</strong></p>
+                    <p>Pass: <strong className="text-black">12345678</strong></p>
                 </div>
 
                 <h3 className="text-2xl font-semibold text-black mb-4">Welcome</h3>
